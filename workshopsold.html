@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="css/netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="css/netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="graphics/advitiya-white.png"  id="logo"   type="image/x-icon">
+    <link rel="icon" href="graphics/favicon.png" type="image/x-icon">
+    <script type="text/javascript">
+        var smooth_scroll = true && navigator.userAgent.search("Firefox") == -1;
+        var um_ajaxurl = "wp-admin/admin-ajax.html";
+        var filter_works = true;
+        var canvas_color = '#876e8e';
+        var smart_portfolio_overlay = true;
+    </script>
+    <title>Advitiya</title>
+    <style type="text/css">
+        #logo {
+            width: 20%;
+            height: auto;
+        }
+        /*reset*/
+        /*layout*/
+        
+        .col-9 {
+            max-width: 900px;
+            width: 100%;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        
+        .col-3 {
+            max-width: 300px;
+            width: 33.333333%;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        /*items*/
+        
+        .portfolio {
+            padding-top: 2em;
+            clear: both;
+        }
+        
+        .menu {
+            padding: .3em .3em;
+        }
+        
+        .wrap {
+            padding: .3em;
+        }
+       #pfimg {
+            width: 100%;
+            opacity: 1;
+            transition: opacity .6s;
+        }
+        
+        figure {
+            float: left;
+            position: relative;
+            line-height: 0;
+            padding: .3em;
+            cursor: pointer;
+        }
+        
+        .img-wrap:before {
+            content: '';
+            position: absolute;
+            top: .3em;
+            left: .3em;
+            right: .3em;
+            bottom: .3em;
+            background-color: rgba(255, 255, 255, .7);
+            opacity: 0.5;
+            transition: opacity 2s, background-color .4s;
+        }
+        
+        .img-wrap:hover:before {
+            background-color: #70cfb7;
+            opacity: 0;
+        }
+        
+        h1 {
+            color: #444;
+            font-size: 44px;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        
+        nav {
+            margin-top: 45px;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            padding: .5em 1.5em.5em;
+            color: white;
+            font-size: 18px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            transition: color .6s, background-color .2s;
+        }
+        
+        nav ul li a:hover {
+            background-color: #70cfb7;
+            color: #fff;
+        }
+        
+        .active a {
+            border: solid 1px #70cfb7;
+            color: white;
+        }
+        
+        @media only screen and (min-width: 600px) {
+            header {
+                float: left
+            }
+            nav {
+                float: right;
+                text-align: right;
+            }
+        }
+        
+        .mysection {
+            padding: 1%;
+        }
+    </style>
+    <link rel='stylesheet' id='google_font-css' href='css/fonts.googleapis.com/csseecd.css?family=Raleway%3A400%2C300%2C500%2C700&amp;ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/umbrellam/assets/css/bootstrap.min8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='wp-content/themes/umbrellam/assets/css/font-awesome.min8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='linea-icons-css' href='wp-content/themes/umbrellam/assets/css/linea8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='wp-content/themes/umbrellam/assets/css/animate8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css' href='wp-content/themes/umbrellam/assets/css/style8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='adjust-css' href='wp-content/themes/umbrellam/assets/css/adjust8686.css?ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom_css-css' href='wp-content/themes/umbrellam/assets/css/dynamic.css13ef.css?brand_color=%2370cfb7&amp;ver=4.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='default_style-css' href='wp-content/themes/umbrellam-child/style8686.css?ver=4.5.1' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jquerycad0.js?ver=1.12.3'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min2fca.js?ver=1.4.0'></script>
+    <script type='text/javascript' src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> </head>
+<style>
+    #loadergif {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        margin-top: -120px;
+        margin-left: -160px;
+    }
+    
+     .stickb {
+            margin-bottom: 0;
+            z-index: 1000;
+        }
+   
+</style>
+</head>
+
+<body class="single single-post postid-283 single-format-standard gradient1">
+    <div class="loader"> <img id="loadergif" src="loader.gif" /> </div>
+    <div class="mobile-menu-button"> <a href="#"><i class="fa fa-reorder"></i></a> </div>
+    <div class="mobile-menu">
+        <div class="menu-main-menu-container">
+            <ul id="mobile_menu" class="main_menu">
+                </li>
+                <li class='menu-item page-builder-menu-item'><a href='index.html#home'>Home</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='about.html'>About Us</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='competitions.html'>Competitions</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='workshops.html'>Workshops</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='exhibitions.html'>Exhibitions</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='talks.html'>Talks</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='mun/index.html'>The IIT Ropar MUN</a></li>
+                <li class='menu-item page-builder-menu-item'><a href='contact.html'>Contact</a></li>
+                <li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="schedule/schedule.html">Schedule</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hidden_audio">
+        <audio controls preload="auto" id="audio_hover">
+            <source src="wp-content/themes/umbrellam/assets/sound/click.mp3" type="audio/mpeg">
+            <source src="wp-content/themes/umbrellam/assets/sound/click.ogg" type="audio/ogg">
+            <source src="wp-content/themes/umbrellam/assets/sound/click.wav" type="audio/wav"> </audio>
+        <audio autoplay="true" id="ambient">
+            <source src="wp-content/uploads/2015/01/Ambient.mp3" type="audio/mpeg"> </audio>
+    </div>
+    <div class="logo">
+        <a href="index.html"> <img src="graphics/advitiya-white.png"  id="logo"   alt="Advitiya 2017" /> </a>
+        <div id="main_menu" class="login"> <a class="btn1 load_more hidden-phone" href="schedule/schedule.html"><i style="padding-right:10px;" class="icon-flag-alt"></i>Schedule</a> <a class="btn1 act-login hidden-phone" href="schedule.pdf" title="Download"><i class="fa fa-download"></i>PDF</a> </div>
+    </div>
+    <div class="main-header">
+        <div class="main-nav">
+            <div class="menu-main-menu-container">
+                <ul id="main_menu" class="main_menu">
+                    </li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='index.html#home' onclick="location.href='index.html'">Home</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='index.html#about' onclick="location.href='about.html'">About</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='competitions.html' onclick="location.href='competitions.html'">Competitions</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='workshops.html' onclick="location.href='workshops.html'">Workshops</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='exhibitions.html' onclick="location.href='exhibitions.html'">Exhibitions</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='talks.html' onclick="location.href='talks.html'">Talks</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='mun/index.html' onclick="location.href='mun/index.html'">The IIT Ropar MUN</a></li>
+                    <li class='menu-item page-builder-menu-item curent_page_builder_item'><a href='contact.html' onclick="location.href='contact.html'">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="music-player "> <a href="#"><i class="fa fa-volume-down"></i></a> </div>
+    </div>
+    <div class="classic_menu"> </div>
+    <div id="global-background">
+        <div class="noise"></div>
+    </div>
+    <div class="box-popup works-popup"></div>
+    <div class="box-popup team-popup">
+        <div class="navigation-arrows">
+            <ul>
+                <li><a class="previous" href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
+                <li>
+                    <a class="close" href="#">
+                        <p>+</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="stp-holder">
+            <!--Member Content-->
+        </div>
+    </div>
+    <section class="mysection section-um">
+        <div class="wrap col-9">
+            <div class="menu col-9">
+                <h3 class="section-title">Workshops</h3>
+                <nav>
+                    <ul class="navigate">
+                        <li class="active" data-type="all"><a href="#">All</a></li>
+                        <li data-type="iit"><a href="#">IIT Ropar</a></li>
+                        <li data-type="itech"><a href="#">i3indya Technologies</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="portfolio col-9">
+                <figure onclick="location.href='workshops/iot.html'" class="img-wrap col-3"> <img id="pfimg" src="graphics/iot.png" alt="IOT" title="itech"></figure>
+                <figure onclick="location.href='workshops/cyberdisease.html'" class="img-wrap col-3"> <img id="pfimg" src="graphics/cyber.png" alt="" title="itech"></figure>
+                <figure onclick="location.href='workshops/speechrobot.html'" class="img-wrap col-3"> <img id="pfimg" src="graphics/speechrobo.png" alt="" title="itech"> </figure>
+                <figure onclick="location.href='workshops/smarthome.html'" class="img-wrap col-3"> <img id="pfimg" src="graphics/smarthome.png" alt="" title="itech"></figure>
+                <figure onclick="location.href='workshops/3dcad.html'" class="img-wrap col-3"> <img id="pfimg" src="graphics/3dcad.png" alt="" title="iit"></figure>
+            </div>
+        </div>
+    </section>
+<div class="clear"></div>
+    <section class="footer section-um stickb">
+        <div class="container footer-container">
+            <div class="links">
+                <div class="footer-border" style="margin-bottom:20px; margin-top:20px"></div> <a href="index.html">#home</a> <span style="display:inline-block; width:5%;"></span> <a href="about.html">#about</a> <span style="display:inline-block; width:5.5%;"></span> <a href="competitions.html">#competitions</a> <span style="display:inline-block; width:5%;"></span> <a href="workshops.html">#workshops</a> <span style="display:inline-block; width:5%;"></span> <a href="exhibitions.html">#exhibitions</a> <span style="display:inline-block; width:5%;"></span> <a href="talks.html">#talks</a> <span style="display:inline-block; width:5%;"></span> <a href="contact.html">#contact</a>
+                <div class="footer-border" style="margin-top:20px"> </div>
+                <div class="copyright-text">
+                    <h4>Built<i class="icon-heart-empty"></i> by <a href="webTeam.html">Web and Technical Operations Team</a> © Advitiya 2017</h4> </div>
+                <div class="social-icons"> <a href="https://www.facebook.com/advitiya.iitrpr" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/advitiyaiitrpr" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://www.youtube.com/channel/UCLUv5W_cHdAAA_DDBWoS0AA" target="_blank"><i class="fa fa-youtube"></i></a> </div>
+            </div>
+    </section>
+    <script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.mineb0c.js?ver=2.18.1'></script>
+    <script type='text/javascript' src='wp-includes/js/mediaelement/wp-mediaelement.min8686.js?ver=4.5.1'></script>
+    <script type='text/javascript' src='wp-content/themes/umbrellam/assets/js/bundled/application5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='wp-includes/js/wp-embed.min8686.js?ver=4.5.1'></script>
+    <script type='text/javascript' src='wp-content/plugins/disqus-comment-system/media/js/count8686.js?ver=4.5.1'></script>
+    <script src="js/classie.js"></script>
+    <script>
+        window.onload = function () {
+            function navigation(activeClass, ulClass, imgContainerClass, sClass) {
+                this.activeClass = activeClass;
+                this.ulClass = ulClass;
+                this.imgContainerClass = imgContainerClass;
+                this.imgSingleClass = sClass;
+                this.imgDefaultClass = this.imgContainerClass.children[0].className;
+            };
+            navigation.prototype.clearClass = function () {
+                var liLength = this.ulClass.children.length;
+                for (var i = 0; i < liLength; i++) {
+                    this.ulClass.children[i].removeAttribute("class")
+                }
+            };
+            navigation.prototype.createClass = function (e) {
+                this.clearClass();
+                var c = this.activeClass
+                    , li = this.ulClass.children[e];
+                li.setAttribute("class", c);
+            };
+            navigation.prototype.faded = function (i, value) {
+                return i.style.opacity = value || 1;
+            };
+            navigation.prototype.fadedExt = function (i, value, s) {
+                (s) ? i.parentNode.className = this.imgSingleClass: i.parentNode.className = this.imgDefaultClass;
+                this.faded(i, value);
+            };
+            navigation.prototype.imgShow = function (e) {
+                this.createClass(e);
+                var maxImg = this.imgContainerClass.children.length;
+                for (var l = 0; l < maxImg; l++) {
+                    var parent = this.imgContainerClass
+                        , image = parent.children[l].firstElementChild
+                        , att = image.getAttribute("title"), // title,
+                        nav = this.ulClass.children[e].getAttribute("data-type");
+                    this.fadedExt(image, 0.3, 1);
+                    if (nav == att) {
+                        this.fadedExt(image, 1, 1);
+                    }
+                    else if (nav == "all") {
+                        this.fadedExt(image);
+                    }
+                }
+            };
+            navigation.prototype.sign = function (e) {
+                var parent = this.ulClass
+                    , ths = this
+                    , child = parent.children[e];
+                child.firstElementChild.onclick = function () {
+                    return false
+                };
+                return child.onclick = function () {
+                    ths.imgShow(e);
+                }
+            };
+            navigation.prototype.render = function () {
+                var liLength = this.ulClass.children.length;
+                for (var k = 0; k < liLength; k++) {
+                    this.sign(k);
+                }
+            };
+            /*
+             ******************************
+             *=obj creat
+             ******************************
+             */
+            var ulPortfolio = document.getElementsByClassName("navigate")[0]
+                , imgPortfolio = document.getElementsByClassName("portfolio")[0]
+                , aclass = "active"
+                , imgFigureClass = "col-3"
+                , navport = new navigation(aclass, ulPortfolio, imgPortfolio, imgFigureClass);
+            navport.render();
+        }
+    </script>
+</body>
+
+</html>

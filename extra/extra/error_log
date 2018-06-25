@@ -1,0 +1,8 @@
+[17-Mar-2017 05:13:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techsecy/public_html/extra/extra/index.php on line 7
+[17-Mar-2017 05:13:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techsecy/public_html/extra/extra/index.php on line 7
+[17-Mar-2017 05:17:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techsecy/public_html/extra/extra/session.php on line 8
+[17-Mar-2017 05:17:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techsecy/public_html/extra/extra/session.php on line 14
+[17-Mar-2017 05:17:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/techsecy/public_html/extra/extra/session.php on line 17
+[17-Mar-2017 05:19:14 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/techsecy/public_html/extra/extra/session.php on line 8
+[17-Mar-2017 05:19:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/techsecy/public_html/extra/extra/session.php on line 14
+[17-Mar-2017 05:19:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/techsecy/public_html/extra/extra/session.php on line 17

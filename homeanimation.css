@@ -1,0 +1,537 @@
+body .containerAni {
+  width: 100px;
+  height: 100px;
+    opacity: 0.25;
+  position: absolute;
+  perspective: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+body .containerAni:nth-of-type(1n + 1) #cube {
+  animation-delay: 0.05s;
+}
+body .containerAni:nth-of-type(1n + 1) #cube div {
+  animation-delay: 0.005s;
+  width: calc(100px - 1px);
+  height: calc(100px - 1px);
+}
+body .containerAni:nth-of-type(2n + 2) #cube {
+  animation-delay: 0.1s;
+}
+body .containerAni:nth-of-type(2n + 2) #cube div {
+  animation-delay: 0.01s;
+  width: calc(100px - 2px);
+  height: calc(100px - 2px);
+}
+body .containerAni:nth-of-type(3n + 3) #cube {
+  animation-delay: 0.15s;
+}
+body .containerAni:nth-of-type(3n + 3) #cube div {
+  animation-delay: 0.015s;
+  width: calc(100px - 3px);
+  height: calc(100px - 3px);
+}
+body .containerAni:nth-of-type(4n + 4) #cube {
+  animation-delay: 0.2s;
+}
+body .containerAni:nth-of-type(4n + 4) #cube div {
+  animation-delay: 0.02s;
+  width: calc(100px - 4px);
+  height: calc(100px - 4px);
+}
+body .containerAni:nth-of-type(5n + 5) #cube {
+  animation-delay: 0.25s;
+}
+body .containerAni:nth-of-type(5n + 5) #cube div {
+  animation-delay: 0.025s;
+  width: calc(100px - 5px);
+  height: calc(100px - 5px);
+}
+body .containerAni:nth-of-type(6n + 6) #cube {
+  animation-delay: 0.3s;
+}
+body .containerAni:nth-of-type(6n + 6) #cube div {
+  animation-delay: 0.03s;
+  width: calc(100px - 6px);
+  height: calc(100px - 6px);
+}
+body .containerAni:nth-of-type(7n + 7) #cube {
+  animation-delay: 0.35s;
+}
+body .containerAni:nth-of-type(7n + 7) #cube div {
+  animation-delay: 0.035s;
+  width: calc(100px - 7px);
+  height: calc(100px - 7px);
+}
+body .containerAni:nth-of-type(8n + 8) #cube {
+  animation-delay: 0.4s;
+}
+body .containerAni:nth-of-type(8n + 8) #cube div {
+  animation-delay: 0.04s;
+  width: calc(100px - 8px);
+  height: calc(100px - 8px);
+}
+body .containerAni:nth-of-type(9n + 9) #cube {
+  animation-delay: 0.45s;
+}
+body .containerAni:nth-of-type(9n + 9) #cube div {
+  animation-delay: 0.045s;
+  width: calc(100px - 9px);
+  height: calc(100px - 9px);
+}
+body .containerAni:nth-of-type(10n + 10) #cube {
+  animation-delay: 0.5s;
+}
+body .containerAni:nth-of-type(10n + 10) #cube div {
+  animation-delay: 0.05s;
+  width: calc(100px - 10px);
+  height: calc(100px - 10px);
+}
+body .containerAni:nth-of-type(11n + 11) #cube {
+  animation-delay: 0.55s;
+}
+body .containerAni:nth-of-type(11n + 11) #cube div {
+  animation-delay: 0.055s;
+  width: calc(100px - 11px);
+  height: calc(100px - 11px);
+}
+body .containerAni:nth-of-type(12n + 12) #cube {
+  animation-delay: 0.6s;
+}
+body .containerAni:nth-of-type(12n + 12) #cube div {
+  animation-delay: 0.06s;
+  width: calc(100px - 12px);
+  height: calc(100px - 12px);
+}
+body .containerAni:nth-of-type(13n + 13) #cube {
+  animation-delay: 0.65s;
+}
+body .containerAni:nth-of-type(13n + 13) #cube div {
+  animation-delay: 0.065s;
+  width: calc(100px - 13px);
+  height: calc(100px - 13px);
+}
+body .containerAni:nth-of-type(14n + 14) #cube {
+  animation-delay: 0.7s;
+}
+body .containerAni:nth-of-type(14n + 14) #cube div {
+  animation-delay: 0.07s;
+  width: calc(100px - 14px);
+  height: calc(100px - 14px);
+}
+body .containerAni:nth-of-type(15n + 15) #cube {
+  animation-delay: 0.75s;
+}
+body .containerAni:nth-of-type(15n + 15) #cube div {
+  animation-delay: 0.075s;
+  width: calc(100px - 15px);
+  height: calc(100px - 15px);
+}
+body .containerAni:nth-of-type(16n + 16) #cube {
+  animation-delay: 0.8s;
+}
+body .containerAni:nth-of-type(16n + 16) #cube div {
+  animation-delay: 0.08s;
+  width: calc(100px - 16px);
+  height: calc(100px - 16px);
+}
+body .containerAni:nth-of-type(17n + 17) #cube {
+  animation-delay: 0.85s;
+}
+body .containerAni:nth-of-type(17n + 17) #cube div {
+  animation-delay: 0.085s;
+  width: calc(100px - 17px);
+  height: calc(100px - 17px);
+}
+body .containerAni:nth-of-type(18n + 18) #cube {
+  animation-delay: 0.9s;
+}
+body .containerAni:nth-of-type(18n + 18) #cube div {
+  animation-delay: 0.09s;
+  width: calc(100px - 18px);
+  height: calc(100px - 18px);
+}
+body .containerAni:nth-of-type(19n + 19) #cube {
+  animation-delay: 0.95s;
+}
+body .containerAni:nth-of-type(19n + 19) #cube div {
+  animation-delay: 0.095s;
+  width: calc(100px - 19px);
+  height: calc(100px - 19px);
+}
+body .containerAni:nth-of-type(20n + 20) #cube {
+  animation-delay: 1s;
+}
+body .containerAni:nth-of-type(20n + 20) #cube div {
+  animation-delay: 0.1s;
+  width: calc(100px - 20px);
+  height: calc(100px - 20px);
+}
+body .containerAni:nth-of-type(21n + 21) #cube {
+  animation-delay: 1.05s;
+}
+body .containerAni:nth-of-type(21n + 21) #cube div {
+  animation-delay: 0.105s;
+  width: calc(100px - 21px);
+  height: calc(100px - 21px);
+}
+body .containerAni:nth-of-type(22n + 22) #cube {
+  animation-delay: 1.1s;
+}
+body .containerAni:nth-of-type(22n + 22) #cube div {
+  animation-delay: 0.11s;
+  width: calc(100px - 22px);
+  height: calc(100px - 22px);
+}
+body .containerAni:nth-of-type(23n + 23) #cube {
+  animation-delay: 1.15s;
+}
+body .containerAni:nth-of-type(23n + 23) #cube div {
+  animation-delay: 0.115s;
+  width: calc(100px - 23px);
+  height: calc(100px - 23px);
+}
+body .containerAni:nth-of-type(24n + 24) #cube {
+  animation-delay: 1.2s;
+}
+body .containerAni:nth-of-type(24n + 24) #cube div {
+  animation-delay: 0.12s;
+  width: calc(100px - 24px);
+  height: calc(100px - 24px);
+}
+body .containerAni:nth-of-type(25n + 25) #cube {
+  animation-delay: 1.25s;
+}
+body .containerAni:nth-of-type(25n + 25) #cube div {
+  animation-delay: 0.125s;
+  width: calc(100px - 25px);
+  height: calc(100px - 25px);
+}
+body .containerAni:nth-of-type(26n + 26) #cube {
+  animation-delay: 1.3s;
+}
+body .containerAni:nth-of-type(26n + 26) #cube div {
+  animation-delay: 0.13s;
+  width: calc(100px - 26px);
+  height: calc(100px - 26px);
+}
+body .containerAni:nth-of-type(27n + 27) #cube {
+  animation-delay: 1.35s;
+}
+body .containerAni:nth-of-type(27n + 27) #cube div {
+  animation-delay: 0.135s;
+  width: calc(100px - 27px);
+  height: calc(100px - 27px);
+}
+body .containerAni:nth-of-type(28n + 28) #cube {
+  animation-delay: 1.4s;
+}
+body .containerAni:nth-of-type(28n + 28) #cube div {
+  animation-delay: 0.14s;
+  width: calc(100px - 28px);
+  height: calc(100px - 28px);
+}
+body .containerAni:nth-of-type(29n + 29) #cube {
+  animation-delay: 1.45s;
+}
+body .containerAni:nth-of-type(29n + 29) #cube div {
+  animation-delay: 0.145s;
+  width: calc(100px - 29px);
+  height: calc(100px - 29px);
+}
+body .containerAni:nth-of-type(30n + 30) #cube {
+  animation-delay: 1.5s;
+}
+body .containerAni:nth-of-type(30n + 30) #cube div {
+  animation-delay: 0.15s;
+  width: calc(100px - 30px);
+  height: calc(100px - 30px);
+}
+body .containerAni:nth-of-type(31n + 31) #cube {
+  animation-delay: 1.55s;
+}
+body .containerAni:nth-of-type(31n + 31) #cube div {
+  animation-delay: 0.155s;
+  width: calc(100px - 31px);
+  height: calc(100px - 31px);
+}
+body .containerAni:nth-of-type(32n + 32) #cube {
+  animation-delay: 1.6s;
+}
+body .containerAni:nth-of-type(32n + 32) #cube div {
+  animation-delay: 0.16s;
+  width: calc(100px - 32px);
+  height: calc(100px - 32px);
+}
+body .containerAni:nth-of-type(33n + 33) #cube {
+  animation-delay: 1.65s;
+}
+body .containerAni:nth-of-type(33n + 33) #cube div {
+  animation-delay: 0.165s;
+  width: calc(100px - 33px);
+  height: calc(100px - 33px);
+}
+body .containerAni:nth-of-type(34n + 34) #cube {
+  animation-delay: 1.7s;
+}
+body .containerAni:nth-of-type(34n + 34) #cube div {
+  animation-delay: 0.17s;
+  width: calc(100px - 34px);
+  height: calc(100px - 34px);
+}
+body .containerAni:nth-of-type(35n + 35) #cube {
+  animation-delay: 1.75s;
+}
+body .containerAni:nth-of-type(35n + 35) #cube div {
+  animation-delay: 0.175s;
+  width: calc(100px - 35px);
+  height: calc(100px - 35px);
+}
+body .containerAni:nth-of-type(36n + 36) #cube {
+  animation-delay: 1.8s;
+}
+body .containerAni:nth-of-type(36n + 36) #cube div {
+  animation-delay: 0.18s;
+  width: calc(100px - 36px);
+  height: calc(100px - 36px);
+}
+body .containerAni:nth-of-type(37n + 37) #cube {
+  animation-delay: 1.85s;
+}
+body .containerAni:nth-of-type(37n + 37) #cube div {
+  animation-delay: 0.185s;
+  width: calc(100px - 37px);
+  height: calc(100px - 37px);
+}
+body .containerAni:nth-of-type(38n + 38) #cube {
+  animation-delay: 1.9s;
+}
+body .containerAni:nth-of-type(38n + 38) #cube div {
+  animation-delay: 0.19s;
+  width: calc(100px - 38px);
+  height: calc(100px - 38px);
+}
+body .containerAni:nth-of-type(39n + 39) #cube {
+  animation-delay: 1.95s;
+}
+body .containerAni:nth-of-type(39n + 39) #cube div {
+  animation-delay: 0.195s;
+  width: calc(100px - 39px);
+  height: calc(100px - 39px);
+}
+body .containerAni:nth-of-type(40n + 40) #cube {
+  animation-delay: 2s;
+}
+body .containerAni:nth-of-type(40n + 40) #cube div {
+  animation-delay: 0.2s;
+  width: calc(100px - 40px);
+  height: calc(100px - 40px);
+}
+body .containerAni:nth-of-type(41n + 41) #cube {
+  animation-delay: 2.05s;
+}
+body .containerAni:nth-of-type(41n + 41) #cube div {
+  animation-delay: 0.205s;
+  width: calc(100px - 41px);
+  height: calc(100px - 41px);
+}
+body .containerAni:nth-of-type(42n + 42) #cube {
+  animation-delay: 2.1s;
+}
+body .containerAni:nth-of-type(42n + 42) #cube div {
+  animation-delay: 0.21s;
+  width: calc(100px - 42px);
+  height: calc(100px - 42px);
+}
+body .containerAni:nth-of-type(43n + 43) #cube {
+  animation-delay: 2.15s;
+}
+body .containerAni:nth-of-type(43n + 43) #cube div {
+  animation-delay: 0.215s;
+  width: calc(100px - 43px);
+  height: calc(100px - 43px);
+}
+body .containerAni:nth-of-type(44n + 44) #cube {
+  animation-delay: 2.2s;
+}
+body .containerAni:nth-of-type(44n + 44) #cube div {
+  animation-delay: 0.22s;
+  width: calc(100px - 44px);
+  height: calc(100px - 44px);
+}
+body .containerAni:nth-of-type(45n + 45) #cube {
+  animation-delay: 2.25s;
+}
+body .containerAni:nth-of-type(45n + 45) #cube div {
+  animation-delay: 0.225s;
+  width: calc(100px - 45px);
+  height: calc(100px - 45px);
+}
+body .containerAni:nth-of-type(46n + 46) #cube {
+  animation-delay: 2.3s;
+}
+body .containerAni:nth-of-type(46n + 46) #cube div {
+  animation-delay: 0.23s;
+  width: calc(100px - 46px);
+  height: calc(100px - 46px);
+}
+body .containerAni:nth-of-type(47n + 47) #cube {
+  animation-delay: 2.35s;
+}
+body .containerAni:nth-of-type(47n + 47) #cube div {
+  animation-delay: 0.235s;
+  width: calc(100px - 47px);
+  height: calc(100px - 47px);
+}
+body .containerAni:nth-of-type(48n + 48) #cube {
+  animation-delay: 2.4s;
+}
+body .containerAni:nth-of-type(48n + 48) #cube div {
+  animation-delay: 0.24s;
+  width: calc(100px - 48px);
+  height: calc(100px - 48px);
+}
+body .containerAni:nth-of-type(49n + 49) #cube {
+  animation-delay: 2.45s;
+}
+body .containerAni:nth-of-type(49n + 49) #cube div {
+  animation-delay: 0.245s;
+  width: calc(100px - 49px);
+  height: calc(100px - 49px);
+}
+body .containerAni:nth-of-type(50n + 50) #cube {
+  animation-delay: 2.5s;
+}
+body .containerAni:nth-of-type(50n + 50) #cube div {
+  animation-delay: 0.25s;
+  width: calc(100px - 50px);
+  height: calc(100px - 50px);
+}
+body .containerAni #cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: 0.5s ease-in-out;
+  animation: rotating 10s linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotating {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+body .containerAni #cube div {
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: transparent;
+}
+body .containerAni #cube .front {
+  border-radius: 50%;
+  transform: rotateY(0deg) translateZ(50px);
+  animation: asplode 10s linear infinite;
+}
+@keyframes asplode {
+  0% {
+    transform: rotateY(0deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateY(0deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+    100% {
+      transform: rotateY(0deg) translateZ(50px);
+    }
+  }
+}
+body .containerAni #cube .back {
+  border-radius: 50%;
+  transform: rotateX(180deg) translateZ(50px);
+  animation: asplode2 10s linear infinite;
+}
+@keyframes asplode2 {
+  0% {
+    transform: rotateX(180deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateX(180deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+  }
+  100% {
+    transform: rotateX(180deg) translateZ(50px);
+  }
+}
+body .containerAni #cube .right {
+  border-radius: 50%;
+  transform: rotateY(90deg) translateZ(50px);
+  animation: asplode3 10s linear infinite;
+}
+@keyframes asplode3 {
+  0% {
+    transform: rotateY(90deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateY(90deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+  }
+  100% {
+    transform: rotateY(90deg) translateZ(50px);
+  }
+}
+body .containerAni #cube .left {
+  border-radius: 50%;
+  transform: rotateY(-90deg) translateZ(50px);
+  animation: asplode4 10s linear infinite;
+}
+@keyframes asplode4 {
+  0% {
+    transform: rotateY(-90deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateY(-90deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+  }
+  100% {
+    transform: rotateY(-90deg) translateZ(50px);
+  }
+}
+body .containerAni #cube .top {
+  transform: rotateX(90deg) translateZ(50px);
+  animation: asplode5 10s linear infinite;
+}
+@keyframes asplode5 {
+  0% {
+    transform: rotateX(90deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateX(90deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+  }
+  100% {
+    transform: rotateX(90deg) translateZ(50px);
+  }
+}
+body .containerAni #cube .bottom {
+  transform: rotateX(-90deg) translateZ(50px);
+  animation: asplode6 10s linear infinite;
+}
+@keyframes asplode6 {
+  0% {
+    transform: rotateX(-90deg) translateZ(50px);
+  }
+  50% {
+    transform: rotateX(-90deg) translateZ(200px) scale(0.55);
+    border-radius: 75%;
+  }
+  100% {
+    transform: rotateX(-90deg) translateZ(50px);
+  }
+}

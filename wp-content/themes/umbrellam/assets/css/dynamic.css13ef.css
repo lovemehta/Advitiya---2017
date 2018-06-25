@@ -1,0 +1,154 @@
+.btn1 {
+    border: 2px solid #70cfb7;
+    color: #70cfb7;
+}
+
+.btn1:hover {
+    background: #70cfb7;
+}
+
+.btn1:focus {
+    background: #70cfb7;
+}
+
+.um-iconholder {
+    color: #70cfb7;
+}
+
+.um-iconbg {
+    border: 2px solid #70cfb7;
+    color: #70cfb7!important;
+}
+
+.um-iconholder .um-licon {
+    color: #70cfb7!important;
+}
+
+.um-iconholder .um-licon {
+    color: #70cfb7!important;
+}
+
+.um-iconholder:hover .um-iconbg {
+    background: #70cfb7;
+}
+
+.filter-works li a {
+    border: 1px solid #70cfb7;
+    color: #70cfb7;
+}
+
+.filter-works li a:hover {
+    background: #70cfb7;
+}
+
+.pt-hover {
+    background: #000000;
+}
+
+.vertical-line {
+    background: #70cfb7;
+}
+
+.feed-post .um-licon {
+    color: #70cfb7;
+}
+
+.feed-post-date h3 {
+    color: #70cfb7;
+}
+
+.pd-left .feed-post-date h3:before {
+    color: #70cfb7;
+}
+
+.pd-right .feed-post-date h3:after {
+    color: #70cfb7;
+}
+
+.post-date h4 {
+    color: #70cfb7;
+}
+
+.social-icons-team a {
+    border-color: #70cfb7;
+}
+
+@-webkit-keyframes animated-mark {
+    from {
+        border: solid 1px #70cfb7;
+    }
+    to {
+        border: solid 5px #70cfb7;
+    }
+}
+
+.um_button input {
+    border: 1px solid #70cfb7;
+    color: #70cfb7;
+}
+
+.um_button input:hover {
+    background: #70cfb7;
+}
+
+.social-icons a:hover {
+    border: 1px solid #70cfb7;
+}
+
+.bp-post .bp-image {
+    background: #70cfb7;
+}
+
+.bp-post a:hover {
+    color: #70cfb7;
+}
+
+.comments_no_padding input#submit {
+    border: 1px solid #70cfb7;
+    color: #70cfb7;
+}
+
+.comments_no_padding input#submit:hover {
+    background: #70cfb7;
+}
+
+.reply a {
+    border: 1px solid #70cfb7;
+    color: #70cfb7;
+}
+
+.reply a:hover {
+    background: #70cfb7;
+}
+
+.mobile-menu-button {
+    border: 1px solid #70cfb7;
+    position: fixed;
+}
+
+.mobile-menu-button a {
+    color: #70cfb7;
+}
+
+ul.accordion>li a.active {
+    border: 2px solid #70cfb7;
+    color: #70cfb7;
+}
+
+ul.tab_buttons>li a.active {
+    border: 2px solid #70cfb7!important;
+    color: #70cfb7!important;
+}
+
+ul.toggle>li a.active {
+    border: 2px solid #70cfb7!important;
+    color: #70cfb7!important;
+}
+
+.pd-right .feed-post-date h3:before {
+    color: #70cfb7;
+}
+
+.pt-hover {
+    background: #0e0e0e;
+}

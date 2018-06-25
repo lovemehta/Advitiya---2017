@@ -1,0 +1,113 @@
+.clear {
+    clear: both;
+    padding: 50px 0px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+    font-family: 'Slabo 27px', serif;
+    line-height: 28px;
+}
+
+.page-intro-con p {
+    font-size: 18px;
+}
+
+.single-service p {
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.feed-post-con p {
+    padding-top: 5px;
+    height: 47px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.logo {
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
+    left: 45px;
+    top: 25px;
+    height: auto;
+    
+}
+
+.login {
+    float: right;
+    margin-right: 120px;
+    margin-top: 23px;
+    width: 325px;
+}
+
+.act-login {
+    margin-left: 10px;
+}
+
+.snail_mail {
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input,
+.gform_wrapper input[type=email],
+.gform_wrapper input[type=number],
+.gform_wrapper input[type=password],
+.gform_wrapper input[type=tel],
+.gform_wrapper input[type=text],
+.gform_wrapper input[type=url] {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.gform_wrapper .gform_footer input[type=submit] {
+    border: 1px solid #70cfb7;
+    color: #70cfb7;
+    background-color: transparent;
+    width: 100%;
+    padding: 18px;
+}
+
+.navigation-arrows {
+    position: absolute;
+    right: 60px;
+    top: 80px;
+}
+
+.post-content img {
+    margin: 25px 0px;
+}
+
